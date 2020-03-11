@@ -1,7 +1,7 @@
 # Cmpt354Queries
 
 Schema
-
+```
 CREATE TABLE Customers (  -- df: mult=1
     custid   INTEGER PRIMARY KEY,
     cname    VARCHAR(14), -- df: word=names.txt sub=power rate=0.016
@@ -38,6 +38,7 @@ CREATE TABLE Invoices (    -- df: nogen
     due      DATE,
     CHECK ( due >= issued )
 );
+```
 
 Queries in Natural language
 
